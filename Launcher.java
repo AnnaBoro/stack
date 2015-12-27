@@ -19,5 +19,6 @@ public class Launcher {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
+        System.out.println(stack.peek());
     }
 }

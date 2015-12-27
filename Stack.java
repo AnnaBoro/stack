@@ -31,6 +31,9 @@ public class Stack {
 
     public Object peek() {
 
+        if (stackL.isEmpty()) {
+            return new NoSuchElementException();
+        }
         return stackL.getLast();
     }
 }
